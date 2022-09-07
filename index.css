@@ -146,7 +146,6 @@ li:hover {
 
 /* MIDDLE SECTION */
 .middle-section{
-    border: 2px solid violet;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,7 +237,6 @@ box-shadow: 10px 10px 20px grey;
     transition: 0.3s all ease-in-out;
 }
 .card-title{
-    /* border:2px solid red; */
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -278,4 +276,216 @@ box-shadow: 10px 10px 20px grey;
     100%{
         transform: translateY(120%);
     }
+}
+.intermediate-bottom{
+    background-image: url("./assets/dotBackground.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.contact-info h1{
+    padding: 10px 0px 10px 0px ;
+    line-height: 2;
+    color: #53bd53;
+    font-weight: bolder;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.contact-info p{
+    display: block;
+    text-align:center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-decoration:wavy;
+}
+.contact-form{
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+}
+.contact-form form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}
+.m-inputs{
+padding: 5px;
+}
+.m-inputs label{
+    display:inline-block;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-weight: bolder;
+    text-decoration: double;
+    margin-right: 210px;
+}
+.in-pl{
+    height: 50px;
+    width:300px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 300;
+    border: 2px solid #f1f1f1;
+    background: rgba(228,227,227,.7);
+    padding: 10px; 
+}
+.s-pl{
+    width: 600px;
+}
+.txt-area{
+    border-radius: 5px;
+    border: 2px solid #f1f1f1;
+    background: rgba(228,227,227,.7);
+    outline: none;
+    padding:10px ;
+}
+
+
+.components{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 340px;
+    background-color: rgb(25, 33, 49);
+    padding: 40px 55px;
+}
+.about{
+    width: 180px;
+    height: 200px;
+    display: flex;
+justify-content: center;
+}
+#comp{
+    list-style: none;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+#comp1{
+    list-style: none;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+}
+#comp li:hover{
+    text-decoration: underline;
+}
+#about1{
+    color: #878787;
+    line-height: 40px;
+    list-style: none;
+    font-size: 12px;
+}
+.help{
+    
+    width: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.Policy{
+    
+    width: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.Social{
+   
+    width: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.Social li a{
+color: white;
+text-decoration: none;
+}
+#line{
+    top: 25px;
+    right: -50px;
+    position: relative;
+    height: 150px;
+    border: 1px solid grey;
+}
+.MailUs{
+    
+    width: 255px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 70px;
+}
+.MailUs ul li{
+    line-height: 20px;
+}
+.Officeaddress ul li{
+    line-height: 20px;
+}
+.Officeaddress{
+   
+    width: 255px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 92px;
+}
+.Officeaddress p6{
+    color:#2874f0;
+}
+.logos{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 147rem;
+    display: flex;
+}
+
+.line hr{
+    width: 1424px;
+    border: 1px solid grey ;
+}
+.hosters{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content:space-evenly;
+}
+#logo{
+    color: gold;
+    position: relative;
+    top: 20px;
+    right: 15px;
+}
+.hosters p a{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.hosters p{
+    color: white;
+    
 }
