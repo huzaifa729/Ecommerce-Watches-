@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family:  Arial;
     user-select: none;    
-
+    text-decoration: none;
 }
 /* CONTAINER */
 .container{
@@ -127,7 +127,7 @@ input:focus{
     height: 45px;
     font-size: 15px;
     color: white;
-    background-color: #fb641b;
+    background-color: #53bd53;
     border: none;
     outline: none;
     cursor: pointer;
@@ -152,6 +152,7 @@ input:focus{
     left: 140px;
     color: #53bd53;
     cursor: pointer;
+    
 }
 #forget{
     top: -12px;
@@ -160,4 +161,7 @@ input:focus{
     font-weight: 500;
     cursor: pointer;
 color:#53bd53;
+}
+.icon {
+    position: relative;
 }

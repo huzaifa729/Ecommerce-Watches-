@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Headers{
+    background-color: #53bd53;
+        display: flex;
+        align-items: center;
+        height: 70px;
+        padding: 5px 10px;
+        position: sticky;
+        z-index: 100; 
+        border-radius: 10px;
+        width: 1420px;
+
+    }
+/* LOGO CSS */
+.header__logo{
+    width: 140px;
+    height: 100px;
+   object-fit: contain;  /*this tag is use to have perfect fit of picture so the pixel of picture will remain same and have better quality*/
+   margin: 8px 20px;
+   
+}
+/* SEARCH BAR CSS */
+.header__searchInput{
+ padding: 10px;
+ height: 14px;
+ border: none;
+ width: 100%;
+ outline: none;
+}
+.header__searchIcon{
+    background-color: #febd69;
+    height: 35px;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 0px 0px 5px;
+}
+.header__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.header__optionlineOne{
+    font-size: 13px;
+    cursor: pointer;
+}
+.header__optionlineTwo{
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header__cart{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.header__cartcount{
+    margin-left: 5px;
+    margin-right:5px;
+}
+.header__optionlineOne:hover{
+    text-decoration: underline;
+}
+.header__optionlineTwo:hover{
+    text-decoration: underline;
+}
+.header__location{
+    color: white;
+    margin-right: -10px; 
+    height: 22px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Home.css">
+</head>
+
+<body>
+    <Headers class="Headers">
+        <Link to="/">
+        <img class="header__logo" src="../assets/logo1.png" alt="Loading" />
+        </Link>
+        <div>
+            <LocationOnOutlinedIcon class="header__location" />
+        </div>
+        <div class="header__option">
+            <span class="header__optionlineOne"><i class="fa-solid fa-location-pin"></i>&nbsp; Hello </span>
+            <span class="header__optionlineTwo"><strong>Select your address</strong></span>
+        </div>
+
+        <div class="header__search">
+            <input type="text" class="header__searchInput" placeholder="Search For Watches" />
+            <button class="header__searchIcon"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="header__nav">
+            <Link to="/Login">
+            <div class="header__option">
+                <span class="header__optionlineOne">Hello</span>
+                <div class="header__optionlineTwo">Guest</div>
+            </div>
+            </Link>
+
+
+            <div class="header__option">
+                <span class="header__optionlineOne">Returns</span>
+                <span class="header__optionlineTwo">& Orders</span>
+            </div>
+
+
+            <div class="header__option">
+                <span class="header__optionlineOne">Your</span>
+                <span class="header__optionlineTwo">Prime</span>
+            </div>
+        </div>
+        <Link to="/checkout" class="header__cart">
+        <i style="color: white; font-size: 20px;" class="fa-sharp fa-solid fa-cart-shopping"></i><span
+            style="color: white;">Cart</span>
+        </Link>
+    </Headers>
+
+    <carousel class="container grid-lg mt-2 mb-2">
+        <div class="splide" id="'splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img sre="../assets/logo.png" width="100%" />
+                    </li>
+                    <li class="splide__slide">
+                        <img sre="images/image0l.jpg" width="100%" />
+                    </li>
+                    <li class="splide___slide">
+                        <img sre="images/image01. Ipg" width="100%" />
+                        </1i>
+                    <li class="splide __slide">
+                        <img sre="images/image01.jpg" width="100%" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </carousel>
+</body>
+<script src="https://kit.fontawesome.com/8775457e96.js" crossorigin="anonymous"></script>
+<script>
+    new splide('#splide',{
+        type: 'loop',
+        perPage: 1,
+        autoplay: true,
+        lazyload: 'nearby'
+
+    }.mount());
+</script>
+</html>
