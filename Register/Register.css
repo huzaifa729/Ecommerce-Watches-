@@ -7,7 +7,7 @@
 }
 body{
     overflow-x: hidden;
-    background-image:linear-gradient(to top,rgba(199, 203, 201, 0.52),#1c691c),url(./assets/back1.jpeg);
+    background-image:linear-gradient(to top,rgba(199, 203, 201, 0.52),#1c691c),url("../assets/back1.jpeg");
     background-repeat: no-repeat;
     background-position:center;
     background-attachment:fixed;
@@ -28,7 +28,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     border: 2px solid white;
-    width: 600px;
+    width: 500px;
     height: 500px;
     padding: 20px;
     background: white;
@@ -70,16 +70,16 @@ button{
     border:1px solid #53bd53;
     cursor: pointer;
     transition: 0.3s all ease-in-out;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 .icon{
     position: relative;
     top: -25px;
-    left: 450px;
+    left: 435px;
     color: grey;
     cursor:pointer;
-    font-size: 16px;
+    font-size: 20px;
 }
 .btn #para2{
 margin-top: 10px;
@@ -93,7 +93,7 @@ color: grey;
 .loginpageside{
     position: relative;
     display: inline-block;
-    width: 50%;
+    width: 30%;
     height: 500px;
     background-color: #53bd53;
 }
@@ -120,5 +120,5 @@ color: grey;
     width: 300px;
     position: relative;
     top: 200px;
-    left: 30px;
+    left: 60px;
 }

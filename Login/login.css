@@ -16,7 +16,7 @@ align-items: center;
 }
 body{
     overflow-x: hidden;
-    background-image:linear-gradient(to top,rgba(199, 203, 201, 0.52),#1c691c),url(./assets/back1.jpeg);
+    background-image:linear-gradient(to top,rgba(199, 203, 201, 0.52),#1c691c),url("../assets/back1.jpeg");
     background-repeat: no-repeat;
     background-position:center;
     background-attachment:fixed;

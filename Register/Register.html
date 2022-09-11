@@ -14,9 +14,9 @@
 
 <body class="body">
             <div class="loginpage">
-                <div class="form">
+                <form class="form">
                     <label for="name" id="mail label">Name</label>
-                    <input type="text" id="name" name="my gamil" placeholder="">
+                    <input type="text" id="name" name="my gamil" placeholder="" required>
                     <div class="icon"><i class="fa-solid fa-user"></i></div>
 
                     <label for="email" id="pass label">Email</label>
@@ -29,14 +29,14 @@
 
                     <label for="Password" id="u-name label">Password</label>
                     <input type="password" id="Password" name="my Password" placeholder="">
-                    <div class="icon" onclick="showHide()"><i class="fa-solid fa-lock"></i></div>
+                    <div class="icon" onclick="showHide()"><i id="icons" class="fa-solid fa-lock"></i></div>
 
                     <label for="C-Password" id="u-name label">Confirm Passowrd</label>
                     <input type="password" id="C-Password" name="my Password" placeholder="">
-                    <div class="icon" onclick="ConfirmPassword()"><i class="fa-solid fa-lock"></i></div>
+                    <div class="icon" onclick="ConfirmPassword()"><i id="icon" class="fa-solid fa-lock"></i></div>
                     
                     <div class="btn">
-                        <button>Submit</button></a>
+                        <button onclick="Register()"> Submit</button></a>
                     </div>
                     <div class="btn">
                         <a href="../Login/login.html"><p id="para2">After Creating Account? <span>Login</span></p></a>
