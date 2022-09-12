@@ -374,3 +374,300 @@ max-width: 240px;
 }
 
 
+.G-shock{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.G-N{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 20px;
+    letter-spacing: 0.2px;
+}
+
+
+.g-wtch{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.g-in{
+    margin-top: 1px;
+    padding: 0px 26px;
+    text-align: center;
+    justify-content: center;
+}
+
+.imge img{
+   max-width: 200px;
+   object-fit: contain;
+}
+
+.w-n{
+    margin-top: 5px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.g-n{
+    margin-top: 5px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.g-info{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.g-price{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.button{
+    margin-bottom: 20px;
+    margin-top: 7px;
+}
+
+.button button{
+   width: 200px;
+   height: 34px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   border: none;
+   outline: none;
+   background: none;
+   border: 5px solid black;
+   cursor: pointer;
+  padding: 2px;
+}
+
+.S-shock{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.S-N{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 20px;
+    letter-spacing: 0.2px;
+}
+
+
+.s-wtch{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.s-in{
+    margin-top: 1px;
+    padding: 0px 26px;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgee img{
+   max-width: 230px;
+   object-fit: contain;
+}
+
+.w-n{
+    margin-top: 5px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s-n{
+    margin-top: 5px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.s-price{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.Glashütte{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.glas-colm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.Glashütte-Name{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3px;
+}
+
+.since{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+.glas-flex{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.banner-one{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.banner-two{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.images img{
+    max-width: 550px;
+    object-fit: contain;
+    border-radius: 3px;
+  
+}
+
+.glas-info{
+    margin-top: 7px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.information{
+    margin-top: 50px;
+}
+
+.premium{
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center; 
+}
+
+.infos{
+    /* text-align: center;
+    justify-content: center; */
+    margin-top: 15px;
+  margin-left: 250px;
+   max-width: 950px;
+}
+
+.para1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.para2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.para3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+.para4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+
+.cart-items{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.cart-flex{
+    display: flex;
+    margin-left: 20px;
+}
+
+
+.carts{
+    display: flex;
+    padding: 10px 31px;
+    border: 3px solid black;
+    justify-content: space-around;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+
+.cart-img img{
+    max-width: 60px;
+    object-fit: contain;
+}
+
+.ol{
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.delivery{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more{
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.brands{
+    margin-top: 30px;
+}
+
+
+.retail{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.deal-b{
+    display: flex;
+    text-align: center;
+    justify-content:center ;
+    padding: 0px 13px;
+}
+
+
+.imagess img{
+    width: 330px;
+    object-fit: contain;
+
+}
